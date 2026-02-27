@@ -3,12 +3,13 @@ export default function Header() {
   <header>
     <nav className="navbar navbar-expand-lg navbar-light bg-light mb-4">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">Agenda</a>
+        <a 
+          className="navbar-brand" 
+          href="#">
+            Agenda
+        </a>
         
-        
-        
-    
-        {/* <!-- COLOR MODE --> */}
+        {/* COLOR MODE */}
         <button 
           id="darkModeButton" 
           type="submit" 
@@ -16,7 +17,7 @@ export default function Header() {
             Dark Mode
         </button>
 
-        {/* <!-- HAMBURGER MENU --> */}
+        {/* HAMBURGER MENU */}
         <button 
           className="navbar-toggler" 
           type="button" 
@@ -64,8 +65,15 @@ export default function Header() {
             
           </ul>
           <form className="d-flex">
-            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-            <button className="btn btn-outline-success" type="submit">Search</button>
+            <input 
+              className="form-control me-2" 
+              type="search" placeholder="Search" 
+              aria-label="Search"/>
+            <button 
+              className="btn btn-outline-success" 
+              type="submit">
+                Search
+            </button>
           </form>
         </div>
       </div>
